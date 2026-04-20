@@ -30,4 +30,4 @@ const archive2026 = {
 
 let testElement = document.getElementById("test")
 
-testElement.innerText = archive2026.speech1
+testElement.textContent = archive2026.speech1
