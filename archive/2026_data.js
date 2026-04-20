@@ -26,8 +26,8 @@ const archive2026 = {
     note: "Non c'è davanti né dietro [Cit.]"
   }
   
-};
+}
 
-let testElement = document.getElementById("test");
+let testElement = document.getElementById("test")
 
-testElement.textContent = archive2026.speech1.note;
+testElement.textContent = archive2026.speech1.note
