@@ -17,11 +17,11 @@ const archive2026 = {
   
   speech1: {
     id: "26_01_01",
-    tema: NULL,
+    tema: null,
     presentatore: "Edoardo L.",
     arte: "Letteratura 📚",
     titolo: "Il Vangelo secondo Gesù Cristo",
-    autore: { nome: "José Saramago", interno: FALSE },
+    autore: { nome: "José Saramago", interno: false },
     materiale: { tipo: "WIKIPEDIA", link: "https://it.wikipedia.org/wiki/Il_Vangelo_secondo_Ges%C3%B9_Cristo" },
     note: "Non c'è davanti né dietro [Cit.]"
   }
@@ -30,4 +30,4 @@ const archive2026 = {
 
 let testElement = document.getElementById("test")
 
-testElement.textContent = archive2026.speech1
+testElement.textContent = archive2026.speech1.note
