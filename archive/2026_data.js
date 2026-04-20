@@ -28,6 +28,6 @@ const archive2026 = {
   
 };
 
-let testElement = document.getElementById("test")
+let testElement = document.getElementById("test");
 
-testElement.textContent = archive2026.speech1.note
+testElement.textContent = archive2026.speech1.note;
