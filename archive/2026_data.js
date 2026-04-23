@@ -186,6 +186,6 @@ const archive2026 = {
 
 let testElement = document.getElementById("test")
 
-for (let i = Object.keys(archive2026).length - 1; i < 0; i--) {
+for (let i = Object.keys(archive2026).length - 1; i >= 0; i--) {
 testElement.innerHTML += `<p>${archive2026[Object.keys(archive2026)[i]].titolo}</p>`
 }
