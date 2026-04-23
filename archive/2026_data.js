@@ -185,7 +185,11 @@ const archive2026 = {
 /* TEST SITO */
 
 let testElement = document.getElementById("test")
+let htmlBuffer = ""
 
 for (let i = Object.keys(archive2026).length - 1; i >= 0; i--) {
-testElement.innerHTML += `<p>${archive2026[Object.keys(archive2026)[i]].titolo}</p>`
+
+htmlBuffer += `<p>${archive2026[Object.keys(archive2026)[i]].titolo}</p>`
 }
+
+testElement.innerHTML = htmlBuffer
